@@ -1,5 +1,73 @@
 *{
   padding: 0;
-  margin: 0;
+  margin: 0; 
+}
+body{
+  background-color:rgba(197, 182, 196, 0.788);
 }
 
+.Dictionary .title{     
+  font-family: "Sacramento", sans-serif;
+  font-size: calc(1em + 6vw);
+  font-weight: 900;
+  text-align: center;
+  letter-spacing:5px;
+  background: linear-gradient(to left,
+  rgb(0, 128, 0),
+  rgb(255, 0, 0),
+  rgb(255, 255, 0),
+  rgb(255, 0, 242),
+  rgb(0, 238, 255),
+  rgb(0, 0, 255),
+  rgb(255, 166, 0)
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+  box-shadow: 0px 1px 11px rgba(92, 83, 7, 0.589);
+}
+
+
+    
+  .Dictionary section{
+  background-color: rgba(26, 136, 179, 0.603);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 6px;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.247),
+  -1px 1px 0 rgb(0, 238, 255),
+  1px 1px 0 rgb(136, 255, 0),
+  1px -1px 0 rgb(255, 0, 242);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px auto;
+  width: 80%; 
+  padding: 20px;
+}
+
+.Dictionary section input{
+  min-width: 100%;
+  border-radius: 3px;
+  border: 1px solid rgba(242, 239, 245, 0.22);
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 300;
+  background-color: rgba(255, 255, 255, 0.747);
+  padding: 3px;
+  margin: 2px 0;
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.692);
+  color: rgba(70, 60, 60, 0.63);
+  box-shadow: inset 0 1px 2px rgb(136, 131, 131);
+}
+
+.Dictionary .hint{
+  font-size: 12px;
+ background: linear-gradient(to left,
+rgb(255, 0, 0),
+rgb(0, 0, 255),
+rgb(255, 166, 0),
+rgb(4, 255, 4),
+rgb(255, 27, 244),
+rgb(255, 255, 0),
+rgb(0, 238, 255)
+);
+-webkit-background-clip: text;
+color: transparent;
+}

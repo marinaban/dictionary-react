@@ -1,0 +1,12 @@
+.synonyms {
+  font-size: 14px;
+}
+.synonyms li {
+  display: inline-block;
+  border: 1px solid rgb(225, 211, 226);
+  border-radius: 25px;
+  font-weight: 500;
+  color: rgb(247, 231, 248);
+  margin-right: 7px;
+  padding: 4px 10px;
+}

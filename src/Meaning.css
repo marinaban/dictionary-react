@@ -1,28 +1,23 @@
-.Meaning{
- padding-left: 12px;
-}
-.Meaning h3{
-margin: 25px 5px 18px 0px;
-text-transform: capitalize;
-color: rgb(103, 34, 167);
-font-size: 20px;
-}
 
+.Meaning h3{
+margin: 5px 5px 18px 0px;
+color: rgba(253, 76, 215, 0.973);
+font-size: 23px;
+text-shadow: 1px 1px 3px rgb(53, 52, 50);
+}
+.Meaning ul{
+  padding: 0;
+}
 .Meaning li{
   padding: 0;
   margin: 0;
-}
-.Meaning ul{
-  
-  margin-bottom: 8px;
-}
-.Meaning .example{
-  margin-left: 17px ;
   list-style: none;
-  color: rgba(134, 131, 131, 0.712);
+}
+
+.Meaning .example{
+  list-style: none;
+  color: rgb(255, 255, 255);
   font-weight: 400;
   font-size: 15px;
-}
-.Meaning .definition{
-  margin-left: 14px;
+  margin-top: 4px;
 }
