@@ -3,6 +3,7 @@ import "./Dictionary.css";
 import axios from "axios";
 import Result from "./Result";
 import Photos from "./Photos";
+import Footer from "./Footer";
 
 export default function Dictionary() {
   const [keyword, setKeyword] = useState("");
@@ -51,6 +52,7 @@ export default function Dictionary() {
 
       <Result result={result} />
       <Photos photos={photos} />
+      <Footer />
     </div>
   );
 }
