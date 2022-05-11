@@ -16,6 +16,7 @@ export default function Dictionary() {
   function handlePexelsResponse(response) {
     setPhotos(response.data.photos);
   }
+
   function handleSearch(event) {
     event.preventDefault();
     const apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
